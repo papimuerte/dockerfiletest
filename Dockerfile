@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM papimuerte/dockertest:test
 
 RUN apt-get -y update && apt-get -y install nginx
 
